@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-firebase-intercom",
+  "version": "0.0.1",
+  "description": "Google Firebase Intercom Integration Plugin",
+  "cordova": {
+    "id": "cordova-plugin-firebase-intercom",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roalcantara/cordova-plugin-firebase-intercom.git"
+  },
+  "keywords": [
+    "cordova",
+    "firebase",
+    "intercom",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Rogério R. Alcântara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roalcantara/cordova-plugin-firebase-intercom/issues"
+  },
+  "homepage": "https://github.com/roalcantara/cordova-plugin-firebase-intercom#readme"
+}
