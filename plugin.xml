@@ -14,8 +14,14 @@
           <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
         </intent-filter>
       </service>
+      <service android:name="com.roalcantara.firebase.intercom.FirebasePluginMessagingIntercomService">
+        <intent-filter>
+          <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+        </intent-filter>
+      </service>
     </config-file>
 
     <source-file src="src/android/FirebaseInstanceIdIntercomService.java" target-dir="src/com/roalcantara/firebase/intercom" />
+    <source-file src="src/android/FirebasePluginMessagingIntercomService.java" target-dir="src/com/roalcantara/firebase/intercom" />
   </platform>
 </plugin>
