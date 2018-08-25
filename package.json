@@ -2,6 +2,9 @@
   "name": "cordova-plugin-firebase-intercom",
   "version": "0.0.1",
   "description": "Google Firebase Intercom Integration Plugin",
+  "scripts": {
+    "commitmsg": "commitlint -E GIT_PARAMS --config ./.commitlintrc.yml"
+  },
   "cordova": {
     "id": "cordova-plugin-firebase-intercom",
     "platforms": [
@@ -24,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/roalcantara/cordova-plugin-firebase-intercom/issues"
   },
-  "homepage": "https://github.com/roalcantara/cordova-plugin-firebase-intercom#readme"
+  "homepage": "https://github.com/roalcantara/cordova-plugin-firebase-intercom#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "husky": "^0.14.3"
+  }
 }
