@@ -2,6 +2,7 @@
 extends:
 - tslint:recommended
 - tslint-eslint-rules
+- tslint-clean-code
 rules:
   # Class and Member design
   no-unnecessary-class:
@@ -285,3 +286,20 @@ rules:
   - SwitchCase: 1
     MemberExpression: 1
   no-constant-condition: true
+
+  # tslint-clean-code
+  id-length:
+  - true
+  - - _
+    - x
+    - y
+    - i
+    - j
+    - T
+  try-catch-first: true
+  no-map-without-usage: true
+  no-complex-conditionals: true
+  prefer-dry-conditionals: true
+  no-flag-args: true
+  max-func-args: true
+  no-for-each-push: true
