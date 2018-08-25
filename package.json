@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Google Firebase Intercom Integration Plugin",
   "scripts": {
-    "commitmsg": "commitlint -E GIT_PARAMS --config ./.commitlintrc.yml"
+    "commitmsg": "commitlint -E GIT_PARAMS --config ./.commitlintrc.yml",
+    "clear": "rm -rf scripts",
+    "build": "npm run clear && ./node_modules/.bin/tsc --p tsconfig.json"
   },
+  "main": "src/scripts/index.ts",
   "cordova": {
     "id": "cordova-plugin-firebase-intercom",
     "platforms": [
@@ -31,6 +34,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "typescript": "^3.0.1"
   }
 }
