@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/scripts/utils/index.ts"],"names":[],"mappings":";;AAAA,mEAEiC;AAG/B,+BAJA,6CAAoB,CAIA","sourcesContent":["import {\n  AndroidManifestUtils\n} from './android-manifest.utils'\n\nexport {\n  AndroidManifestUtils\n}\n"]}

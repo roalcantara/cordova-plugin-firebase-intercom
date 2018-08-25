@@ -23,5 +23,7 @@
 
     <source-file src="src/android/FirebaseInstanceIdIntercomService.java" target-dir="src/com/roalcantara/firebase/intercom" />
     <source-file src="src/android/FirebasePluginMessagingIntercomService.java" target-dir="src/com/roalcantara/firebase/intercom" />
+
+    <hook type="after_prepare" src="scripts/hooks/after-prepare/remove-firebase-plugin-nodes.hook.js" />
   </platform>
 </plugin>
