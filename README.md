@@ -1,5 +1,7 @@
 # cordova-plugin-firebase-intercom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/roalcantara/cordova-plugin-firebase-intercom.svg)](https://greenkeeper.io/)
+
 A simple cordova plugin that integrates [Firebase](https://github.com/arnesson/cordova-plugin-firebase) and [Intercom](https://github.com/intercom/intercom-cordova) cordova plugins, allowing to send and receive Intercom's Push Notifications on Android's devices.
 
 Heavily based on Intercom's FCM [documentation](https://developers.intercom.com/installing-intercom/docs/android-fcm-push-notifications#section-step-7-using-intercom-with-other-fcm-setups-optional).
